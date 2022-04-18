@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/ionkid-landing/static/css/main.a93ca4e3.css",
+    "main.js": "/ionkid-landing/static/js/main.355c1799.js",
+    "static/media/story_illustration_2.svg": "/ionkid-landing/static/media/story_illustration_2.52b1dd0d671c384082015a6c175c4ee1.svg",
+    "static/media/story_illustration_6.svg": "/ionkid-landing/static/media/story_illustration_6.963be6e68a11189d807c18b63458357b.svg",
+    "static/media/story_illustration_1.svg": "/ionkid-landing/static/media/story_illustration_1.2e0c113ff4a990777bc3fcc34dc26c23.svg",
+    "static/media/story_illustration_4.svg": "/ionkid-landing/static/media/story_illustration_4.24d204f4a9279ea8e9ecc3cdc0aed8cd.svg",
+    "static/media/story_illustration_3.svg": "/ionkid-landing/static/media/story_illustration_3.2d842ed9bc84b1de61647cefe222c91b.svg",
+    "static/media/story_illustration_5.svg": "/ionkid-landing/static/media/story_illustration_5.c42a008fd2053cf366757ebd20087a09.svg",
+    "static/media/hero_illustration.svg": "/ionkid-landing/static/media/hero_illustration.4077ec27cf9f25ca7f11e40ff91c629b.svg",
+    "static/media/team_member_4.png": "/ionkid-landing/static/media/team_member_4.32a8b456c1a7d970f97b.png",
+    "static/media/story_line_test1.svg": "/ionkid-landing/static/media/story_line_test1.c8d8305d6a3935e1d2d62b843c84cb5e.svg",
+    "static/media/team_member_6.png": "/ionkid-landing/static/media/team_member_6.357b7d185f15fd68e491.png",
+    "static/media/team_member_5.png": "/ionkid-landing/static/media/team_member_5.99b44250a2270316f49a.png",
+    "static/media/team_member_2.png": "/ionkid-landing/static/media/team_member_2.eb911f2aa6ecad56a520.png",
+    "static/media/team_member_7.png": "/ionkid-landing/static/media/team_member_7.a985da7c2a7631335d84.png",
+    "static/media/team_member_1.png": "/ionkid-landing/static/media/team_member_1.b548bcafbfc8d80c0763.png",
+    "static/media/team_member_8.png": "/ionkid-landing/static/media/team_member_8.987d63f1ef3fbf3cf055.png",
+    "static/media/team_member_3.png": "/ionkid-landing/static/media/team_member_3.bdec3fa25ef9e59f12c0.png",
+    "static/media/logo_ionkid.svg": "/ionkid-landing/static/media/logo_ionkid.40cf6b06f916e6a803d5b43fcd381e2e.svg",
+    "static/media/icon_5.svg": "/ionkid-landing/static/media/icon_5.30b59da60b3935392470d943afde7213.svg",
+    "static/media/hero_highlight.svg": "/ionkid-landing/static/media/hero_highlight.f83bb31210c1683f4e38.svg",
+    "index.html": "/ionkid-landing/index.html",
+    "static/media/mobile_menu_close.svg": "/ionkid-landing/static/media/mobile_menu_close.2adeffe51ee0445ba90cd917f2229516.svg",
+    "static/media/icon_3.svg": "/ionkid-landing/static/media/icon_3.e52fcd021f5c20f0ef949d3ad7aed78a.svg",
+    "static/media/icon_2.svg": "/ionkid-landing/static/media/icon_2.da2d312d5cf5dcb93ba5eef644cda724.svg",
+    "static/media/icon_1.svg": "/ionkid-landing/static/media/icon_1.2842deac385d6e28f27faab28a0454f1.svg",
+    "static/media/icon_4.svg": "/ionkid-landing/static/media/icon_4.4645e1464ee964012e7ad8c8002d98af.svg",
+    "static/media/mobile_menu.svg": "/ionkid-landing/static/media/mobile_menu.7556167d4420d4d15197e7eb0ea56a66.svg",
+    "main.a93ca4e3.css.map": "/ionkid-landing/static/css/main.a93ca4e3.css.map",
+    "main.355c1799.js.map": "/ionkid-landing/static/js/main.355c1799.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a93ca4e3.css",
+    "static/js/main.355c1799.js"
+  ]
+}
