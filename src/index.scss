@@ -1,0 +1,42 @@
+@import "./assets/typography/fonts.scss";
+@import "./assets/typography/colors.scss";
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 3.5rem;
+}
+
+body {
+  background-color: #f1f4f7;
+  margin: 0 auto;
+
+  font-family: -apple-system, BlinkMacSystemFont, $open-sans;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h2 {
+  text-align: center;
+  font-size: $header-s;
+  color: $cloud-burst;
+}
+
+p {
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1024px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,19 @@
+@import "../../assets/typography/colors.scss";
+@import "../../assets/typography/fonts.scss";
+
+.subtitleContainer {
+  text-align: center;
+}
+
+.subtitle {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 0.5rem 0.5rem;
+  font-size: $sub-title;
+  font-weight: 700;
+  color: $blueberry;
+  background: rgba(236, 241, 244, 0.4);
+  border-radius: 0.5rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}

@@ -1,0 +1,13 @@
+@mixin flex($direction: column, $align: center) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: space-between;
+  align-items: $align;
+}
+
+@mixin wrapper_container {
+  max-width: 1600px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin: 0 auto;
+}

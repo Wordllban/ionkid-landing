@@ -1,0 +1,88 @@
+// typography
+@import "../../assets/typography/colors.scss";
+@import "../../assets/typography/fonts.scss";
+
+// mixins 
+@import "../../mixins.scss"; 
+
+.usage {
+  margin-bottom: 8rem;
+}
+
+.container {
+  @include wrapper_container; 
+}
+
+.title {
+  margin-bottom: 4rem;
+}
+
+.list {
+  text-align: center;
+  font-size: $body-xs;
+  list-style: none;
+  margin-bottom: 5em;
+}
+
+.list li:not(:last-child) {
+  margin-bottom: 1em;
+}
+
+// make this blueberry dot
+.list li::before {
+  display: inline-block;
+  font-weight: bold;
+  height: 1em;
+  content: "\2022";
+  color: $blueberry;
+  margin-right: 1rem;
+  margin-left: -1em;
+  text-align: center;
+}
+
+.marked {
+  position: relative;
+  color: $blueberry;
+  font-weight: bold;
+}
+
+.background__blur {
+  position: absolute;
+  height: 5em;
+  width: 8em;
+  font-size: 2rem;
+  display: inline-block;
+  background-color: $blueberry;
+  filter: blur(125px);
+  z-index: -1;
+  opacity: 0.7;
+}
+
+.examples {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+
+  margin-top: 10rem;
+}
+
+.examples > * {
+  flex: 1 1 20rem;
+}
+
+@media screen and (max-width: 1440px) {
+  .container {
+    max-width: 1340px;
+  }
+
+  .examples > * {
+    flex: 1 1 25rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .list li::before {
+    content: none;
+  }
+}

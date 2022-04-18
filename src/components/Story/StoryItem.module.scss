@@ -1,0 +1,62 @@
+// typography
+@import "../../assets/typography/colors.scss";
+@import "../../assets/typography/fonts.scss";
+
+// mixins 
+@import "../../mixins.scss"; 
+
+.item:not(:last-child) {
+  margin-bottom: 10em;
+}
+
+.container {
+  @include flex(row);
+  @include wrapper_container;
+}
+
+.container:nth-child(2n) {
+  flex-direction: row-reverse;
+}
+
+.container > .text {
+  flex: 0 1 41%;
+}
+
+.image__container {
+  max-width: 26rem;
+  max-height: 26rem;
+}
+
+.image {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.blur {
+  position: absolute;
+  border-radius: 80%;
+  bottom: -20%;
+  height: 10em;
+  width: 10em;
+  font-size: 2rem;
+  filter: blur(150px);
+  z-index: -1;
+}
+
+.text {
+  font-size: $body-xs;
+  line-height: 185%;
+  color: $bastille;
+}
+
+@media screen and (max-width: 425px) {
+  .container {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .text {
+    text-align: center;
+  }
+}

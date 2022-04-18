@@ -1,0 +1,80 @@
+// typography
+@import "../../assets/typography/colors.scss";
+@import "../../assets/typography/fonts.scss";
+
+ // mixins 
+@import "../../mixins.scss";
+
+.footer {
+  margin-top: 12rem;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+
+  @include wrapper_container;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list > li {
+  display: block;
+  color: $bastille;
+  font-size: $body-xs;
+  line-height: 1.875rem;
+  letter-spacing: -0.02em;
+}
+
+.list > li > a {
+  color: $bastille;
+}
+.list > li:last-child > a {
+  font-weight: bold;
+  color: $blueberry;
+}
+
+.list > li:not(:last-child) {
+  margin-right: 2.5rem;
+}
+
+// animations
+
+.list > li > a:hover,
+.list > li > a:focus {
+  color: $blueberry;
+}
+
+.list > li:last-child > a:hover,
+.list > li:last-child > a:focus{
+  color: $light-colar;
+}
+
+@media screen and (max-width: 425px) {
+  .container {
+    flex-direction: column;
+  }
+  .list{
+    flex-direction: column;
+    align-items: flex-start;
+    padding-inline-start: 0;
+    line-height: 1.25rem;
+  }
+
+  .list > * {
+    margin-bottom: 1rem;
+  }
+
+  .list > *:not(:first-child) {
+    text-decoration: underline;
+  }
+
+  .list > *:last-child {
+    display: block;
+    margin: 0 auto;
+  }
+}

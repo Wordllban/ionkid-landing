@@ -1,0 +1,41 @@
+@import "../../assets/typography/colors.scss";
+@import "../../assets/typography/fonts.scss";
+
+.member {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+}
+
+.member:not(:first-child) {
+  margin-top: 1rem;
+}
+
+.photo {
+  border-radius: 50%;
+}
+
+.info {
+  margin-left: 1rem;
+}
+
+.name {
+  color: $bastille;
+  font-size: $body-s;
+  font-weight: bold;
+  line-height: 1.625rem;
+  letter-spacing: -0.02em;
+
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.position {
+  color: $bastille;
+  opacity: 0.8;
+  font-size: $title;
+  font-weight: 300;
+  line-height: 1.625rem;
+  letter-spacing: -0.02rem;
+}

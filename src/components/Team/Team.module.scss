@@ -1,0 +1,113 @@
+// typography
+@import "../../assets/typography/colors.scss";
+@import "../../assets/typography/fonts.scss";
+
+// mixins
+@import "../../mixins.scss";
+
+.team {
+  margin-top: 6rem;
+}
+
+.container {
+  @include flex(row);
+  @include wrapper_container;
+}
+
+.members__container {
+  display: flex;
+  background-color: #f3f0ea;
+  border-radius: 16px;
+  padding: 2.5em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    16px 16px 0px rgba(72, 148, 255, 0.6);
+}
+
+.first_team {
+  margin-right: 5rem;
+}
+
+.about {
+  text-align: right;
+  padding-left: 6rem;
+}
+
+.title {
+  color: $bastille;
+  text-align: right;
+  font-size: $header-s;
+  font-weight: bold;
+  line-height: 150%;
+  letter-spacing: -0.03em;
+  margin-bottom: 4rem;
+}
+
+.description {
+  position: relative;
+  color: #303031;
+  font-size: $body-s;
+  line-height: 2.5rem;
+  letter-spacing: -0.02rem;
+}
+
+.background__blur {
+  position: absolute;
+  border-radius: 80%;
+  height: 8em;
+  width: 4em;
+  right: 10%;
+  font-size: 2rem;
+  background: rgba(72, 148, 255, 0.2);
+  filter: blur(90px);
+  z-index: -1;
+}
+
+.bold {
+  font-weight: 500;
+}
+
+@media screen and (max-width: 1440px) {
+  .container {
+    max-width: 1340px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .team {
+    margin-top: 3rem;
+  }
+
+  .container {
+    max-width: 924px;
+
+    flex-direction: column-reverse;
+  }
+
+  .about {
+    text-align: center;
+    padding: 0;
+  }
+
+  .title {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .description {
+    margin-bottom: 2rem;
+  }
+}
+
+
+@media screen and (max-width: 425px) {
+  .members__container {
+    flex-direction: column;
+
+    padding: .5rem;
+  }
+
+  .first_team {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+}

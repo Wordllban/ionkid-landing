@@ -1,0 +1,24 @@
+@import "../../assets/typography/colors.scss";
+@import "../../assets/typography/fonts.scss";
+
+.link {
+  display: block;
+  text-decoration: none;
+  color: $cloud-burst;
+  font-size: 1.25em;
+  line-height: 1.75rem;
+  letter-spacing: -0.02em;
+  opacity: 75%;
+  transition: 0.4s ease-out;
+}
+
+.link:focus,
+.link:hover {
+  opacity: 100%;
+}
+
+@media screen and (min-width: 426px) {
+  .link:not(:last-child) {
+    margin-right: 3rem;
+  }
+}

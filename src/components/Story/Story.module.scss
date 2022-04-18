@@ -1,0 +1,40 @@
+@import "../../assets/typography/colors.scss";
+@import "../../assets/typography/fonts.scss";
+
+.story {
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+
+.title {
+  position: relative;
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+}
+
+.title__blur {
+  display: inline-block;
+  position: absolute;
+  border-radius: 80%;
+  right: 15%;
+  top: -250%;
+  height: 10em;
+  width: 18em;
+  font-size: 2rem;
+  background-color: rgba(254, 142, 142, 0.36);
+  filter: blur(100px);
+  z-index: -1;
+}
+
+.story__line {
+  position: absolute;
+  margin-top: 2em;
+  left: 47.5%;
+  z-index: 1;
+}
+
+@media screen and (max-width: 1024px) {
+  .story__line {
+    display: none;
+  }
+}
